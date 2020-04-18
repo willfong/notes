@@ -17,3 +17,10 @@ Using ZSH
 1. The above step will provide a URL to create a Pull Request/Merge Request
 1. `gco master` - Return back to master
 
+
+## External
+
+- https://thoughtbot.com/blog/5-useful-tips-for-a-better-commit-message
+- https://scottchacon.com/2011/08/31/github-flow.html
+
+
