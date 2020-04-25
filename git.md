@@ -18,6 +18,11 @@ Using ZSH
 1. `gco master` - Return back to master
 
 
+## Tips
+
+1. **Small and Frequent Commits** - Increment master with small commits that incremently improve the code base. Major code revisions should be avoided as possible to ensure uptime.
+
+
 ## External
 
 - https://thoughtbot.com/blog/5-useful-tips-for-a-better-commit-message
