@@ -21,3 +21,11 @@ Workstations should be ephemeral. You should be able to re-provision a new works
 	npm config set prefix ~/.npm
   echo "PATH=$HOME/.npm/bin:$PATH" >> .bashrc
 
+
+
+### VS Code
+
+- https://monokai.pro
+- ESLint
+
+ 
