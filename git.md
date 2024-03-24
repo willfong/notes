@@ -11,20 +11,23 @@ Principles are important to ensure everyone on the team has the same understandi
 
 ## Command Line Process
 
+For each new feature or change you want to make, create a new branch using the below steps:
+
 1. `git checkout main` - Ensure you're on the main (primary) branch
 1. `git pull` - Ensure you have all the latest updates
 1. `git checkout -b <name>` - Shortcut to create a new branch called `<name>`
 1. Make your changes
-1. `git status` - Check to see which files have changed
-1. `git diff <filename>` - Check each file to ensure proper changes
-1. `git add <filename>` - Manually add each file to the checkout
-1. `git status` - Check to make sure proper files have been added
-1. `git commit -m "<some message>"` - Commit all the changes
+1. `git status` - Check to see a list of all the files that have been changed
+1. `git diff <filename>` - Run this for each file to see the differences between what's in the main repository and the changes you made
+1. `git add <filename>` - Stage each file to be committed
+1. `git status` - Review the list of files that have been staged to be committed
+1. `git commit -m "<some message>"` - Commit all the changes with a short description of the change
 1. `git push origin HEAD` - Push your changes to your branch in origin
 1. The above step will provide a URL to create a Pull Request/Merge Request
-1. `git checkout main` - Return back to main
+1. Follow to the link to create your actual pull request
+1. `git checkout main` - Return back to main branch
 
-Use shortcuts to save you from typing:
+Optionally, use can add shortcuts to your terminal to save you from typing:
 
 ```sh
 alias gco='git checkout'
