@@ -34,6 +34,11 @@ alias gco='git checkout'
 alias gcb='git checkout -b'
 ```
 
+## Checking Out Other Branches
+
+1. `git branch -r` - See a list of the remote branches
+1. `git switch <branch name>` - Switch to the branch name, no need for `origin`
+
 ## Tips
 
 1. **One PR per change** - Each pull request should have one scope / feature change. A large PR with multiple scopes take longer to merge and can hold up other PRs.
